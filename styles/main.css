@@ -1,0 +1,104 @@
+h1 {
+	color: black;
+    font-size: 50px;
+    font-family: 'Roboto Mono', serif;
+    font-weight: 600;
+}
+
+h2 {
+	color: black;
+    font-size: 16px;
+    font-family: 'Roboto Mono', serif;
+    font-weight: 600;
+}
+
+body {
+        color: black;
+        /*margin: 0px 20px 0px 20px;*/
+        width: 100%;
+        font-family: 'Roboto Mono', serif;
+        font-weight: 400;
+}
+.header {
+    /*float:  left;*/
+}
+
+img {
+    width: 100%;
+}
+
+figure { margin: 0  }
+
+.hoverimage {
+    position: relative;
+    box-sizing: border-box;
+    /*cursor: pointer;*/
+}
+
+.hoverimage:hover .hovercaption  {
+    display: block;
+}
+
+.hovercaption{
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.75);
+    bottom: 20px;
+    left: 5px;
+    padding: 5px;
+    max-width: calc(100% - 20px);
+    display: none;
+    font-size: 12px;
+    /*max-width: 100%;*/
+}
+
+@media only screen and (min-width: 45em) { /* 960px */
+ 
+  .hidden-lg {
+    display:  none;
+  }
+}
+/* .firstimage{
+    width: 100%;
+}
+.secondimage{
+    width: 100%;
+}
+.thirdimage{
+    width: 100%;
+}
+.fourthimage{
+    width: 100%;
+}
+.fifthimage{
+    width: 100%;
+}*/
+/*.firstcaption{
+    font-size: 12px;
+}
+.secondcaption{
+    font-size: 12px;
+    display: block;
+    text-align: left;
+}
+.thirdcaption{
+    font-size:  12px;
+}
+.fourthcaption{
+    font-size: 12px;
+}
+.fifthcaption{
+    font-size: 12px;
+}
+.list{
+    float:right;
+    background-color: darkgreen;
+    width: 270px;
+    height: 200px;
+    color: white;
+}
+.listitem{
+    padding-bottom: 1em;
+}
+.article {
+    font-family: sans-serif, "times new roman";
+}*/
